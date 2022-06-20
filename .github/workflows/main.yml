@@ -6,7 +6,7 @@ name: "Build & Release" #Defind your job name whatever you want
 jobs:
   build:
     # This job will run on ubuntu virtual machine
-    name: Macos
+    name: Build & Release
     runs-on: macos-latest #can use window,macos and linux
     steps:
       # Setup Java environment in order to build the Android app.
@@ -18,7 +18,7 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: 'stable' # 'dev', 'master', default to: 'stable'
-          flutter-version: '2.10.5' # this is your flutter version
+          flutter-version: '3.0.0' # this is your flutter version
       - run: flutter pub get
       
       # - run: flutter test # Run widget tests for our flutter project.I'm not run for now.
