@@ -1,6 +1,10 @@
 # github_action_example
 
-A new Flutter project.
+Flutter project to understant github action.
+
+article on medium
+
+  - https://medium.com/@yan_yan/flutter-build-with-github-action-3b6a1a9a6a87
 
 ## Getting Started
 
